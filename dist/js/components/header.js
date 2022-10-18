@@ -12,7 +12,7 @@ export class Header extends Component {
     createTemplate() {
         return `
         <header>
-        <h1>TO-DO LIST</h1>
+        <h1>PETS LIST</h1>
         </header>
         `;
     }
