@@ -1,5 +1,5 @@
-import { Component } from '../components/component.js';
-export class Main extends Component {
+import { Component } from './component.js';
+export class Footer extends Component {
     constructor(selector) {
         //cuando se instanciamos le decimos el selector.
         //pasar selector al padre
@@ -11,8 +11,7 @@ export class Main extends Component {
     //crear metodo template
     createTemplate() {
         return `
-        <main>
-        </main>
+        <footer><address>Mireya</address></footer>
         `;
     }
 }
