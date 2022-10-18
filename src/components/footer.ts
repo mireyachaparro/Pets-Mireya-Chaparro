@@ -1,7 +1,7 @@
-import { Component } from '../components/component.js';
+import { Component } from './component.js';
 
-export class Main extends Component {
-    //segundo componente: main
+export class Footer extends Component {
+    //segundo componente: footer
     template: string;
     constructor(public selector: string) {
         //cuando se instanciamos le decimos el selector.
@@ -13,8 +13,7 @@ export class Main extends Component {
     //crear metodo template
     createTemplate() {
         return `
-        <main>
-        </main>
+        <footer><address>Mireya</address></footer>
         `;
     }
 }
