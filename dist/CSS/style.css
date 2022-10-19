@@ -6,8 +6,8 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: arial;
 }
+
 header,
 footer {
     flex: 1 0 auto;
@@ -17,11 +17,25 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
 main {
     flex: 10 0 auto;
+    margin: 1rem;
     padding: 1rem;
-    background-color: #90c2e7;
 }
+
+ul {
+    list-style: none;
+}
+li {
+    border: 1px gainsboro solid;
+    padding: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #c6fffd;
+}
+
 h2 {
     color: #0b5351;
 }
@@ -30,6 +44,7 @@ input {
     margin-block: 0.5rem;
 }
 
-ul {
-    list-style: none;
+.button {
+    cursor: pointer;
 }
+/**/
