@@ -1,5 +1,3 @@
-# 202210-w3ch2-mireya-chaparro
-
 # Pet List
 
 Cada mascota es un objeto con
