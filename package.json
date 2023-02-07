@@ -1,7 +1,7 @@
 {
-    "name": "week2",
+    "name": "Pets-Mireya-Chaparro",
     "version": "1.0.0",
-    "description": "week3",
+    "description": "Pets CRUD",
     "main": "index.js",
     "type": "module",
     "scripts": {
